@@ -1,0 +1,138 @@
+<html>
+<head>
+  <title>Ma page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="D:/projects/second-project/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="top">
+    <div class="bar" id="myNavbar">
+      <!--<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>-->
+      <a href="#home" class="bar-item button">HOME</a>
+      <a href="#about" class="bar-item button"> <span class="item-bar">ABOUT</span></a>
+      <a href="#portfolio" class="bar-item button"><span class="item-bar">PORTFOLIO</span></a>
+      <a href="#contact" class="bar-item button"> <span class="item-bar">CONTACT</span></a>
+    </div> img
+
+    <!-- Navbar on small screens -->
+      <!--<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+      </div>
+    </div>-->
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 display-container opacity-min" id="home">
+      <div class="display-middle" style="white-space:nowrap;">
+        <span class="title">MY WEBSITE LOGO</span>
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="content container padding-64" id="about">
+      <h3 class="center">ABOUT ME</h3>
+      <p class="center"><em>I love photography</em></p>
+      <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="row">
+        <div class="col m6 center padding-large">
+          <p class="my-name "><b><i class="fa fa-user margin-right"></i>My Name</b></p><br>
+          <img src="D:/images/19398021_967762456692364_1891188767_n.png" class="my opacity hover-opacity" width="500" height="250">
+        </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="col m6 hide-small padding-large alineat">
+        <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 display-container opacity-min">
+    <div class="display-middle">
+      <span class="title">PORTFOLIO</span>
+    </div>
+  </div>
+
+<!-- Container (Portfolio Section) -->
+<div class="content container padding-64" id="portfolio">
+  <h3 class="center">MY WORK</h3>
+  <p class="center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="row-padding center">
+    <div class="col m3">
+      <img src="D:/images/6ce53415be7cdbc0ff93f1b4284e6054.jpg" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="col m3">
+      <img src="D:/images/20668152_998699423598667_1600073713_n.png" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="col m3">
+      <img src="D:/images/20707898_998497266952216_882648228_n.jpg" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="col m3">
+      <img src="D:/images/20676983_998497270285549_1033753914_o.png" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="row-padding center section">
+    <div class="col m3">
+      <img src="D:/images/20731110_998699340265342_2042476970_n.png" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="The mist">
+    </div>
+
+    <div class="col m3">
+      <img src="D:/images/20727063_998497000285576_2129674854_o.png" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="col m3">
+      <img src="D:/images/20727553_998497333618876_1367544695_o.jpg" style="width:100%" onclick="onClick(this)" class="opacity hover-opacity" alt="Empty ghost train">
+    </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 display-container no-padding">
+  <div class="display-middle">
+     <span class="title">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="content container padding-64" id="contact">
+  <h3 class="center">WHERE I WORK</h3>
+  <p class="center"><em>I'd love your feedback!</em></p>
+
+  <div class="row padding-32 section">
+    <div class="col m4 container">
+      <iframe src="https://www.google.ro/maps/place/Prim%C4%83ria+Vulcan/@45.3745329,23.2942163,18z/data=!4m5!3m4!1s0x0:0x9fed43e66c9a9b74!8m2!3d45.3746391!4d23.293891?hl=ro" style="border:none;"></iframe>
+    </div>
+    <div class="col m8 panel">
+      <div class="large margin-bottom">
+        <i class="fa fa-map-marker fa-fw hover-text-black xlarge margin-right"></i> Chicago, US<br>
+        <i class="fa fa-phone fa-fw hover-text-black xlarge margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw hover-text-black xlarge margin-right"></i> Email: mail@mail.com<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="center">
+    <p>Powered by Ale Hirsch</p>
+</footer>
+</body>
